@@ -1,0 +1,101 @@
+$common-font: "Open Sans", sans-serif;
+$Manrope-font: "Manrope", sans-serif;
+$white: #ffffff;
+$light-grey: #f1f1f1;
+$grey: #777777;
+$black: #000000;
+$background-color: #0a2640;
+$green:#4FE9A4;
+
+* {
+  margin: 0;
+}
+body {
+  font-family: $common-font;
+}
+
+.navbar {
+  width: 100%;
+  background-color: $background-color;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 60px 100px;
+  .navbar-nav {
+    gap: 40px;
+  }
+  .nav-link {
+    color: white;
+  }
+
+  button {
+    font-weight: 700;
+    border-radius: 24px;
+    color: $background-color;
+    padding: 8px 40px;
+  }
+}
+.section1 {
+  .section-header-container {
+    .section-sub-header {
+      font-size: 64px;
+    }
+    .section-header-content {
+      padding: 0 50px;
+    }
+  }
+}
+section {
+  max-width: 100%;
+  padding: 90px 0;
+  .section-header-container {
+    margin-bottom: 70px;
+    width: 800px;
+    color: $grey;
+    h1 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    .section-sub-header {
+      font-family: $Manrope-font;
+      font-size: 48px;
+      font-style: normal;
+      color: black;
+    }
+    .section-header-content {
+      font-size: 20px;
+    }
+  }
+}
+.filled-section {
+  background-color: $background-color;
+  .section-header-container {
+    h1 {
+      color: $light-grey;
+    }
+    .section-sub-header {
+      color: $white;
+    }
+    .section-header-content {
+      color: $light-grey;
+    }
+  }
+}
+
+.section2 {
+  padding: 0;
+  transform: translateY(-96px);
+}
+.feature-number{
+  width: 1000px;
+  h2{
+    font-family: $Manrope-font;
+    color:$green;
+    font-size: 96px;
+  }
+  p{
+    color: $light-grey;
+    font-size: 24px;
+
+  }
+}
+
